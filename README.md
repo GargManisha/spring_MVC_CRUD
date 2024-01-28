@@ -12,6 +12,7 @@ In this project, I have created **two controller classes**.
 
 The **main difference** in both the file is the annotation.
 For **spring MVC**, must use **@Controller annotation**. And do not use @RestController annotation.
+
 @RestController annotation is the combination of @Rest and @Controller annotation and it return the data in the form of ResponseEntity.
 
 So, if you want to return your html file name from controller class, then you must use only @Controller anntation.
